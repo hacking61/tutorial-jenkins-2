@@ -22,7 +22,8 @@ node {
    
    // -- Compilando
    echo 'Compilando aplicación'
-   mvn clean compile
+   sh 'mvn clean compile'
+   echo 'Ya pase por esta fase'
    
    // ------------------------------------
    // -- ETAPA: Test
