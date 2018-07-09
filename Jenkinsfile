@@ -19,4 +19,8 @@ node {
    echo 'Descargando código de SCM'
    //sh 'rm -rf *'
    checkout scm
+   
+   // -- Compilando
+   echo 'Compilando aplicación'
+   script 'mvn clean compile'
    }
