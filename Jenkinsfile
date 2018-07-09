@@ -22,5 +22,6 @@ node {
    
    // -- Compilando
    echo 'Compilando aplicación'
-   script 'mvn clean compile'
+   script.bat
+   //'mvn clean compile'
    }
